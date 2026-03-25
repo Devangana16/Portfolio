@@ -104,7 +104,7 @@ export default function App() {
                 backgroundImage: `linear-gradient(#0e0e11, #0e0e11), linear-gradient(135deg, ${acc}, transparent 60%)`
               }}
             />
-            <img src="/avatar.png" alt="Devangana Suresh" className="sidebar-photo" />
+            <img src="/Portfolio/avatar.png" alt="Devangana Suresh" className="sidebar-photo" />
           </div>
 
           <h1 className="sidebar-name">Devangana<br />Suresh</h1>
@@ -315,12 +315,12 @@ export default function App() {
             <motion.h2 className="panel-title" {...rise(0.1)}>Verified Expertise.</motion.h2>
             <div className="milestones-grid">
               {[
-                { title: 'Master Generative AI (ChatGPT & More)', org: 'Udemy / 2025', href: '/docs/Master Generative AI & Generative AI tools (ChatGPT & more).pdf' },
-                { title: 'Computational Theory: Language Principles', org: 'Infosys / 2025', href: '/docs/TOC.pdf' },
-                { title: 'Privacy and Security in Social Media', org: 'NPTEL / 2025', href: '/docs/NPTEL Privacy and Security in Online Social Media.pdf' },
-                { title: 'Computer Communications', org: 'Coursera / 2024', href: '/docs/Coursera Computer Communication.pdf' },
-                { title: 'The Bits and Bytes of Networking', org: 'Coursera / 2024', href: '/docs/Cousera Bits and Bytes of Networking.pdf' },
-                { title: 'Mastering in C: Basic to Beyond', org: 'CSE Pathshala / 2024', href: '/docs/CSE Pathshala C Language.pdf' }
+                { title: 'Master Generative AI (ChatGPT & More)', org: 'Udemy / 2025', href: '/Portfolio/docs/Master Generative AI & Generative AI tools (ChatGPT & more).pdf' },
+                { title: 'Computational Theory: Language Principles', org: 'Infosys / 2025', href: '/Portfolio/docs/TOC.pdf' },
+                { title: 'Privacy and Security in Social Media', org: 'NPTEL / 2025', href: '/Portfolio/docs/NPTEL Privacy and Security in Online Social Media.pdf' },
+                { title: 'Computer Communications', org: 'Coursera / 2024', href: '/Portfolio/docs/Coursera Computer Communication.pdf' },
+                { title: 'The Bits and Bytes of Networking', org: 'Coursera / 2024', href: '/Portfolio/docs/Cousera Bits and Bytes of Networking.pdf' },
+                { title: 'Mastering in C: Basic to Beyond', org: 'CSE Pathshala / 2024', href: '/Portfolio/docs/CSE Pathshala C Language.pdf' }
               ].map((c, i) => (
                 <motion.a key={c.title} href={c.href} target="_blank" rel="noopener noreferrer"
                   className="milestone" {...rise(i * 0.1)} style={{ textDecoration: 'none', borderLeft: `2px solid ${ACCENTS.certs}` }}>
