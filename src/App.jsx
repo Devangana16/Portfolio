@@ -256,22 +256,22 @@ export default function App() {
             <div className="project-cards">
               {[
                 {
-                  year: '2025', name: 'Log Analyzer',
-                  desc: 'A pattern-matching engine in Java that ingests system logs, clusters anomalous events, and produces security reports.',
-                  chips: ['Java', 'Maven', 'DevOps', 'Git'],
-                  href: 'https://github.com/Devangana16/Log_Analyzer',
-                },
-                {
-                  year: '2025', name: 'API Hub',
+                  year: '2026', name: 'API Hub',
                   desc: 'A centralized platform for discovering and testing public APIs with integrated documentation and live testing environments.',
                   chips: ['React', 'HTML5', 'CSS3', 'JavaScript'],
                   href: 'https://github.com/Devangana16',
                 },
                 {
-                  year: '2025', name: 'Fitness Tracker',
+                  year: '2026', name: 'Fitness Tracker',
                   desc: 'A comprehensive health monitoring system built with the MERN stack. Features workout logging, progress visualization, and personalized goal setting.',
                   chips: ['MongoDB', 'Express', 'React', 'Node.js'],
                   href: 'https://github.com/Devangana16/FitTracker',
+                },
+                {
+                  year: '2025', name: 'Log Analyzer',
+                  desc: 'A pattern-matching engine in Java that ingests system logs, clusters anomalous events, and produces security reports.',
+                  chips: ['Java', 'Maven', 'DevOps', 'Git'],
+                  href: 'https://github.com/Devangana16/Log_Analyzer',
                 },
                 {
                   year: '2025', name: 'Coffee Shop Website',
