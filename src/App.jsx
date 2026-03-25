@@ -159,7 +159,7 @@ export default function App() {
               engineering and cybersecurity — not as separate paths, but as one integrated practice.
             </motion.p>
             <motion.div style={{ marginTop: '2.5rem' }} {...rise(0.3)}>
-              <a href="/docs/Specialised_CV.pdf" target="_blank" rel="noopener noreferrer" className="sidebar-resume-btn" style={{ width: 'fit-content', padding: '1rem 2rem', fontSize: '.75rem' }}>
+              <a href="/Portfolio/docs/Specialised_CV.pdf" target="_blank" rel="noopener noreferrer" className="sidebar-resume-btn" style={{ width: 'fit-content', padding: '1rem 2rem', fontSize: '.75rem' }}>
                 View Resume 🗒️
               </a>
             </motion.div>
@@ -235,7 +235,7 @@ export default function App() {
             <motion.p className="eyebrow" style={{ color: ACCENTS.training }} {...rise(0)}>Training</motion.p>
             <motion.h2 className="panel-title" {...rise(0.1)}>Practical Defense.</motion.h2>
             <div className="milestones-grid">
-              <motion.a href="/docs/CEH.pdf" target="_blank" rel="noopener noreferrer" className="milestone" {...rise(0.2)} style={{ textDecoration: 'none', borderLeft: `2px solid ${ACCENTS.training}` }}>
+              <motion.a href="/Portfolio/docs/CEH.pdf" target="_blank" rel="noopener noreferrer" className="milestone" {...rise(0.2)} style={{ textDecoration: 'none', borderLeft: `2px solid ${ACCENTS.training}` }}>
                 <div className="milestone-icon" style={{ background: `${ACCENTS.training}20`, color: ACCENTS.training }}>⚡</div>
                 <div>
                   <p className="milestone-tag" style={{ color: ACCENTS.training }}>Cybersecurity</p>
